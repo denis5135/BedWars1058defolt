@@ -33,3 +33,4 @@ jobs:
           mvn versions:update-child-modules
           mvn clean install -s ci_settings.xml
           echo "UPDATE_VERSION=$UPDATE_VERSION" >> $GITHUB_ENV
+ 
